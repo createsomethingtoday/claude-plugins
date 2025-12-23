@@ -1,0 +1,14 @@
+{
+  "name": "canon",
+  "version": "1.0.0",
+  "description": "Design system enforcement with Dieter Rams principles. Enforces 'Tailwind for structure, Canon for aesthetics'.",
+  "author": {
+    "name": "CREATE SOMETHING",
+    "email": "hello@createsomething.io"
+  },
+  "commands": ["commands/audit.md"],
+  "agents": ["agents/canon-auditor.md"],
+  "hooks": "hooks/hooks.json",
+  "scripts": ["scripts/canon-check.sh"],
+  "docs": ["docs/tokens-reference.md"]
+}

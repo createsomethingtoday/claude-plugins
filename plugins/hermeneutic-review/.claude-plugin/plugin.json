@@ -1,0 +1,12 @@
+{
+  "name": "hermeneutic-review",
+  "version": "1.0.0",
+  "description": "Code review through the Subtractive Triad lens: DRY -> Rams -> Heidegger.",
+  "author": {
+    "name": "CREATE SOMETHING",
+    "email": "hello@createsomething.io"
+  },
+  "agents": ["agents/reviewer.md"],
+  "skills": ["skills/subtractive-review/SKILL.md"],
+  "scripts": ["scripts/triad-audit-pr.sh"]
+}

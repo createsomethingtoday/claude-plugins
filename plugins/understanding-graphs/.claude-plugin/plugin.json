@@ -1,0 +1,10 @@
+{
+  "name": "understanding-graphs",
+  "version": "1.0.0",
+  "description": "Minimal dependency graphs for codebase comprehension. Embodies 'Less, but better' for documentation.",
+  "author": {
+    "name": "CREATE SOMETHING",
+    "email": "hello@createsomething.io"
+  },
+  "skills": ["skills/understanding-graphs/SKILL.md"]
+}

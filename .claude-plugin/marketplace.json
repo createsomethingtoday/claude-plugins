@@ -1,0 +1,42 @@
+{
+  "name": "create-something",
+  "owner": {
+    "name": "CREATE SOMETHING",
+    "email": "hello@createsomething.io"
+  },
+  "metadata": {
+    "description": "Subtractive design methodology: DRY -> Rams -> Heidegger",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "canon",
+      "source": "./canon",
+      "description": "Design system enforcement with Dieter Rams principles",
+      "category": "design",
+      "tags": ["css", "design-tokens", "tailwind", "audit"]
+    },
+    {
+      "name": "hermeneutic-review",
+      "source": "./hermeneutic-review",
+      "description": "Code review through the Subtractive Triad lens",
+      "category": "code-quality",
+      "tags": ["review", "philosophy", "dry", "heidegger"]
+    },
+    {
+      "name": "voice-validator",
+      "source": "./voice-validator",
+      "description": "Content validation against the Five Principles",
+      "category": "content",
+      "tags": ["voice", "content", "marketing", "writing"]
+    },
+    {
+      "name": "understanding-graphs",
+      "source": "./understanding-graphs",
+      "description": "Minimal dependency graphs for codebase comprehension",
+      "category": "documentation",
+      "tags": ["docs", "architecture", "understanding"]
+    }
+  ]
+}
