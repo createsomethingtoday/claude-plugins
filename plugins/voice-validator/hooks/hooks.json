@@ -1,0 +1,15 @@
+{
+  "hooks": [
+    {
+      "event": "PostToolUse",
+      "matcher": {
+        "tool": ["Write", "Edit"],
+        "path": ["**/README.md", "**/CHANGELOG.md", "**/*.md", "**/docs/**"]
+      },
+      "action": {
+        "type": "prompt",
+        "message": "Documentation was modified. Consider running `/audit-voice` to check Voice compliance against the Five Principles."
+      }
+    }
+  ]
+}

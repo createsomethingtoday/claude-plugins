@@ -1,6 +1,6 @@
 {
   "name": "canon",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Design system enforcement with Dieter Rams principles. Enforces 'Tailwind for structure, Canon for aesthetics'.",
   "author": {
     "name": "CREATE SOMETHING",

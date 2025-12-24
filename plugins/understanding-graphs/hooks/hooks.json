@@ -1,0 +1,15 @@
+{
+  "hooks": [
+    {
+      "event": "PostToolUse",
+      "matcher": {
+        "tool": ["Write", "Edit"],
+        "path": ["**/src/index.*", "**/src/lib/**", "**/package.json", "**/tsconfig.json"]
+      },
+      "action": {
+        "type": "prompt",
+        "message": "Key file was modified. Consider updating UNDERSTANDING.md if this changes the dependency graph or critical paths."
+      }
+    }
+  ]
+}
