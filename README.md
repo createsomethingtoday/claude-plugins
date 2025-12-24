@@ -75,6 +75,16 @@ Minimal dependency graphs for codebase comprehension.
 
 ## Installation
 
+### Option 1: Web UI (Recommended)
+
+Browse and manage plugins at **[createsomething.io/plugins](https://createsomething.io/plugins)**
+
+- Visual plugin catalog with descriptions
+- Toggle plugins on/off with one click
+- Export settings.json for Claude Code
+
+### Option 2: CLI
+
 Add this marketplace to Claude Code:
 
 ```bash
@@ -123,6 +133,7 @@ The triad is coherent because it's one principle - **subtractive revelation** - 
 
 ## Reference
 
+- [createsomething.io/plugins](https://createsomething.io/plugins) - **Plugin Management UI**
 - [createsomething.ltd](https://createsomething.ltd) - Philosophy and Canon
 - [createsomething.io](https://createsomething.io) - Research and Papers
 - [createsomething.space](https://createsomething.space) - Experiments
